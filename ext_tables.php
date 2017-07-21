@@ -9,6 +9,7 @@ $tempColumns = array (
 		"label"   => "LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tx_begroups_kind",
 		"config"  => array (
 			"type"  => "select",
+			"renderType" => "selectSingle",
 			"items" => array (
 				array("LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tx_begroups_kind.I.0", "0", \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath("be_groups")."/Resources/Public/Images/selicon_be_groups_tx_begroups_kind_0.gif"),
 				array("LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tx_begroups_kind.I.1", "1", \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath("be_groups")."/Resources/Public/Images/selicon_be_groups_tx_begroups_kind_1.gif"),
@@ -29,6 +30,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.file_mount',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 5',
 			'size' => 10,
@@ -64,6 +66,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.db_mount',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 6',
 			'size' => 10,
@@ -84,6 +87,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.workspace_rights',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 8',
 			'size' => 10,
@@ -104,6 +108,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.rights',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 1',
 			'size' => 10,
@@ -124,6 +129,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.page_access',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 4',
 			'size' => 10,
@@ -144,6 +150,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.tsconfig',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 7',
 			'size' => 10,
@@ -164,6 +171,7 @@ $tempColumns = array (
 		"label"   => 'LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tabs.language',
 		"config"  => array (
 			'type' => 'select',
+			'renderType' => 'selectCheckBox',
 			'foreign_table' => 'be_groups',
 			'foreign_table_where' => ' AND be_groups.tx_begroups_kind = 2',
 			'size' => 10,
