@@ -9,6 +9,7 @@ $tempColumns = array (
 		"label"   => "LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tx_begroups_kind",
 		"config"  => array (
 			"type"  => "select",
+			'renderType' => 'selectSingle',
 			"items" => array (
 				array("LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tx_begroups_kind.I.0", "0", \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath("be_groups")."/Resources/Public/Images/selicon_be_groups_tx_begroups_kind_0.gif"),
 				array("LLL:EXT:be_groups/Resources/Private/Language/locallang_db.xml:be_groups.tx_begroups_kind.I.1", "1", \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath("be_groups")."/Resources/Public/Images/selicon_be_groups_tx_begroups_kind_1.gif"),
